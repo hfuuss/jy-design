@@ -1,0 +1,68 @@
+{
+  "name": "jyui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "dependencies": {
+    "@types/jest": "^24.0.6",
+    "@types/node": "^11.9.4",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "antd": "^3.13.5",
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.11",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5",
+    "react-styleguidist": "^9.0.0",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test",
+    "build": "run-p build:** copy**:**",
+    "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib --ignore **/__tests__,**/__mocks__",
+    "build:esm": "babel src/components --out-dir esm --ignore **/__tests__,**/__mocks__",
+    "copycss:lib": "cpx \"src/components/**/*.css\" lib",
+    "copycss:esm": "cpx \"src/components/**/*.css\" esm",
+    "copymd:lib": "cpx \"src/components/**/*.md\" lib",
+    "copymd:esm": "cpx \"src/components/**/*.md\" esm",
+    "doc:publish": "styleguidist build && gh-pages -d styleguidist",
+    "doc:dev": "styleguidist server",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "cpx": "^1.5.0",
+    "cross-env": "^5.2.0",
+    "dog-names": "^1.0.2",
+    "gh-pages": "^2.0.1",
+    "npm-run-all": "^4.1.5",
+    "react-app-rewired": "^2.1.0"
+  }
+}
