@@ -7,6 +7,8 @@ npm run build # 打包成库
 npm run doc:dev # 组件库文档开发
 npm run doc:publish # 打包组件库文档并且发布
 ```
+
+### 线上访问地址： http://github.getshell.cn/
 # 技术栈
 * antd: 基础组件库
 * cra: 项目脚手架
@@ -22,4 +24,4 @@ npm run doc:publish # 打包组件库文档并且发布
 
 # 待开发
 * mock
-* lern
+* lerna
