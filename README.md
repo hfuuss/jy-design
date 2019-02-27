@@ -19,8 +19,10 @@ npm run doc:publish # 打包组件库文档并且发布
 * Typescript: 语言
 * 其他
 # 如何使用
-```js
+```bash
+npm install @hfuuss/jyui # 安装组件库
 
+import {Button} from '@hfuuss/jyui'  # 使用组件
 ```
 # 如何开发
 * 由于是基于antd开发的二次组件，所以尽量不要引入多余的css文件。保持风格上面的统一
