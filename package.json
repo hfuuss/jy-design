@@ -6,7 +6,7 @@
     "ls": "lerna ls",
     "update": "lerna update",
     "clean": "lerna clean",
-    "publish": "lerna publish"
+    "publish": "cd packages/jyui && npm run build && lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.13.0"
