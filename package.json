@@ -1,6 +1,7 @@
 {
   "name": "root",
   "version": "0.0.1",
+  "private": true,
   "description": "jy-design",
   "scripts": {
     "bs": "lerna bootstrap",
@@ -16,10 +17,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/hfuuss/jy-design.git"
     },
-    "keywords": [
-    "express",
-    "framework"
-    ],
     "author": "hfuuss <ss@hfuusec.cn> (http://i.getshell.cn)",
     "license": "MIT",
     "bugs": {
