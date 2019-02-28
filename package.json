@@ -1,5 +1,7 @@
 {
   "name": "root",
+  "version": "0.0.1",
+  "description": "jy-design",
   "scripts": {
     "bs": "lerna bootstrap",
     "ls": "lerna ls",
@@ -9,5 +11,19 @@
   },
   "devDependencies": {
     "lerna": "^3.13.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hfuuss/jy-design.git"
+    },
+    "keywords": [
+    "express",
+    "framework"
+    ],
+    "author": "hfuuss <ss@hfuusec.cn> (http://i.getshell.cn)",
+    "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/hfuuss/jy-design/issues"
+    },
+    "homepage": "https://github.com/hfuuss/jy-design#readm"
 }
