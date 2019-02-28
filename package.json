@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "scripts": {
     "bs": "lerna bootstrap",
     "ls": "lerna ls",
