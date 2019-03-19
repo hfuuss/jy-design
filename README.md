@@ -1,6 +1,6 @@
 # 九月大人的脚手架 具体内容查看各自的README.md
 jyui —— 功能性组件库 —— 基于[antd](https://ant.design) 二次封装功能性组件库。          
-基于此，可以和后端同学讨论，行程业务性组件库。类似自己[adp](https://pro.ant.design/index-cn)的 可配置解决方案
+基于此，可以和后端同学讨论，形成业务性组件库。类似自己[adp](https://pro.ant.design/index-cn)的 可配置解决方案
 
 ## jyui
 功能性组件库 —— 基于[antd](https://ant.design) 二次封装功能性组件库。
