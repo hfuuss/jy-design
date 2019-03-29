@@ -7,7 +7,7 @@ jyui —— 功能性组件库 —— 基于[antd](https://ant.design) 二次封
 
 
 
-### 线上访问地址： http://github.getshell.cn/
+### 线上访问地址： https://github.getshell.cn/
 # 技术栈
 * antd: 基础组件库
 * cra: 项目脚手架
